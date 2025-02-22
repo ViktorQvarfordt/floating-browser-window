@@ -1,0 +1,19 @@
+{
+  "name": "floating-browser-window",
+  "version": "1.0.0",
+  "description": "An Electron app with split window views",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^29.1.0",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.viktorqvarfordt.floating-browser-window",
+    "productName": "Floating Browser Window"
+  }
+}
