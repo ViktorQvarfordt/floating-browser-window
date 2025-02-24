@@ -20,7 +20,7 @@ open dist/mac-arm64/Floating\ Browser\ Window.app -n --args 'https://chatgpt.com
 Customize the shortcut:
 
 ```
-open dist/mac-arm64/Floating\ Browser\ Window.app -n -args 'https://chatgpt.com/' 'Alt+U'
+open dist/mac-arm64/Floating\ Browser\ Window.app -n --args 'https://chatgpt.com/' 'Alt+U'
 ```
 
 (`-n` opens a new instance of the application even if one is already running.)
