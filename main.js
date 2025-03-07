@@ -36,10 +36,10 @@ function createWindow() {
     }
   })
 
-  mainWindow.on('close', (event) => {
-    event.preventDefault()
-    mainWindow.hide()
-  })
+  // mainWindow.on('close', (event) => {
+  //   event.preventDefault()
+  //   mainWindow.hide()
+  // })
 }
 
 app.whenReady().then(createWindow)
